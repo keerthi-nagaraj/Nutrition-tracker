@@ -128,13 +128,12 @@ For EACH distinct item:
 Do NOT include nutrition values (calories, macros, sodium, etc.) and do NOT include
 any food database ID (such as a USDA FDC ID) — you do not have access to a nutrition
 database and should not guess these. Only identify the item, its estimated grams, and
-your confidence. Nutrition lookup and matching happens in a separate step outside of
-your response.
+your confidence. 
 
 Respond ONLY in this JSON format, no other text, no markdown code fences:
 [
-  {"item": "grilled chicken breast", "grams": 120, "confidence": "high"},
-  {"item": "steamed white rice", "grams": 150, "confidence": "medium"},
+  {"item": "grilled chicken breast", "grams": 120, "confidence": "high","ml":"50","fdc_id": 123456},
+  {"item": "steamed white rice", "grams": 150, "confidence": "medium","ml":"150","fdc_id": 123457},
 ]
 """
 
