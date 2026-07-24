@@ -2,6 +2,9 @@ backend/.env
 # Python virtual environment
 backend/venv/
 
+# Local SQLite store for analyses/logged meals (nutrition_tracker/store.py)
+backend/nutrition_tracker/data/tracker.db
+
 # Python cache
 __pycache__/
 *.py[cod]

@@ -1,0 +1,92 @@
+:root {
+	color-scheme: light;
+	--color-backdrop: #e6f0da;
+	--color-bg: #f3f8ea;
+	--color-surface: #ffffff;
+	--color-border: #e5e7eb;
+	--color-text: #1c1c1c;
+	--color-text-muted: #6b7280;
+	--color-accent: #62be07;
+	--color-accent-contrast: #1c1c1c;
+	--color-accent-soft: #eaf9d0;
+	--color-secondary: #b1fb34;
+	--color-secondary-contrast: #1c1c1c;
+	--color-secondary-soft: #f2fdd9;
+	--color-success: #62be07;
+	--color-warning: #f59e0b;
+	--color-warning-soft: #fef3da;
+	--color-danger: #ef4444;
+	--color-danger-soft: #fdecec;
+	--color-low: #ef4444;
+	--color-medium: #f59e0b;
+	--color-high: #62be07;
+
+	--color-calories: #62be07;
+	--color-protein: #ef4444;
+	--color-carbs: #f59e0b;
+	--color-fat: #22c55e;
+	--color-water: #3b82f6;
+
+	--radius-sm: 10px;
+	--radius-md: 16px;
+	--radius-lg: 24px;
+	--shadow-sm: 0 1px 3px rgba(28, 28, 28, 0.06);
+	--shadow-md: 0 10px 30px rgba(28, 28, 28, 0.08);
+	--space-1: 4px;
+	--space-2: 8px;
+	--space-3: 12px;
+	--space-4: 16px;
+	--space-5: 24px;
+	--space-6: 32px;
+	--space-8: 48px;
+	--font-sans:
+		'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+	--font-mono: 'SF Mono', ui-monospace, 'Cascadia Code', monospace;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: var(--color-backdrop);
+	color: var(--color-text);
+	font-family: var(--font-sans);
+	font-size: 17px;
+	line-height: 1.55;
+	-webkit-font-smoothing: antialiased;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+	padding: var(--space-5);
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+}
+
+button,
+input,
+select {
+	font: inherit;
+	color: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: not-allowed;
+}

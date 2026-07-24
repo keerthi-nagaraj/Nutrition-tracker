@@ -1,0 +1,9 @@
+Image,What it sees,Raw VLM response,Parsed JSON,Error
+Food 1.jpg,ERROR: 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.,,"{
+  ""items"": [],
+  ""error"": ""404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.""
+}",404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.
+Food 23.jpg,ERROR: 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.,,"{
+  ""items"": [],
+  ""error"": ""404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.""
+}",404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.
